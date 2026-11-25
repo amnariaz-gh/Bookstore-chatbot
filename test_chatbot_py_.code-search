@@ -1,0 +1,8 @@
+# Query: test_chatbot.py.
+# ContextLines: 1
+
+from chatbot import greet
+
+def test_greeting():
+    greeting = greet()
+    assert greeting == "Welcome to ABC Bookstore! How can I help you find your next great read today?"
